@@ -1,4 +1,4 @@
 # ResumoDosCultos
-Repositório do resulto dos cultos da ccvideira recife com HTML e CSS.
+Repositório do resumo dos Cultos da CCVideira recife com HTML e CSS.
 
 https://devcaiorocha.github.io/ResumoDosCultos/
