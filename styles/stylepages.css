@@ -114,6 +114,7 @@ img.ccv {
   align-items: flex-start;
   padding: 20px;
   min-height: 250px;
+text-align: justify;
 }
 
 .tag {
@@ -173,6 +174,14 @@ footer {
 
 @media (max-width: 600px) {
 
+.card{
+width: auto ;
+}
+
+.card-body p {
+    font-size: 18px;
+text-align: justify;
+}
   footer {
     position: relative;
     background-color: #10aaa5;
