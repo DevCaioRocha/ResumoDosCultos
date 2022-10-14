@@ -68,7 +68,6 @@ img.ccv {
   margin: 0 auto;
   flex-direction: row-reverse;
   flex-wrap: wrap-reverse;
-
 }
 
 .card {
@@ -150,6 +149,11 @@ footer {
 }
 
 @media (max-width: 600px) {
+
+  .container {
+    flex-direction: column-reverse;
+    width: auto;
+  }
 
   footer {
     position: relative;
