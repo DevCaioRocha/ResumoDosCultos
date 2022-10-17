@@ -40,10 +40,7 @@ span {
 #logo {
   display: flex;
   background-color: #10aaa5;
-  /* font-family: "open_sansbold", Arial, Helvetica, sans-serif; */
-  text-align: left;
   color: white;
-  justify-content: center;
 }
 
 p.dias {
@@ -58,15 +55,14 @@ img.ccv {
   height: 100px;
   margin-top: 40px;
   display: inline;
+  margin-left: 5px;
 }
 
 .container {
   display: flex;
   width: 1040px;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
   margin: 0 auto;
-  flex-direction: row-reverse;
+  flex-direction: row;
   flex-wrap: wrap-reverse;
 }
 
@@ -138,6 +134,21 @@ a {
   color: #545d7a;
 }
 
+.main-navigation ul {
+  display: flex;
+  list-style: none;
+  height: 100%;
+  position: relative;
+  justify-content: end;
+}
+
+.link-nav {
+  display: flex;
+  margin-right: 20px;
+  color: rgb(110, 107, 107);
+  text-decoration: none;
+}
+
 footer {
   background-color: #10aaa5;
   color: rgb(255, 255, 255);
@@ -153,6 +164,29 @@ footer {
   .container {
     flex-direction: column-reverse;
     width: auto;
+  }
+
+  h1 {
+    font-size: 23px;
+  }
+
+  span {
+    font-size: 18px;
+
+  }
+
+  img.ccv {
+    margin-top: 15px;
+  }
+
+  #logo-texto {
+    margin-left: 10px;
+  }
+
+  .link-nav {
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 15px;
   }
 
   footer {

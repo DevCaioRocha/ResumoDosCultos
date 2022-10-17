@@ -57,30 +57,34 @@ span {
   text-decoration: none;
 }
 
-#logo-texto {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-left: 40px;
+#logo-texto h1 {
+  display: inline;
+  font-size: 35px;
 }
+
+#logo-texto span {
+  font-size: 17px;
+
+}
+
+#logo-texto {
+  margin: 3px 0 5px 10px;
+}
+
 
 #logo {
   display: flex;
   background-color: #10aaa5;
-  text-align: left;
   color: white;
-  justify-content: center;
-  margin-left: 290px;
-  margin-right: 290px;
+  justify-content: left;
+
 }
 
-/* p.card-body {
-font-size: 30px;
-} */
-
 img.ccv {
-  width: 105px;
-  height: 100px;
-  margin-top: 40px;
+  width: 80px;
+  height: 80px;
+  margin-top: 3px;
+  margin-left: 5px;
   display: inline;
 }
 
@@ -114,7 +118,7 @@ img.ccv {
   align-items: flex-start;
   padding: 20px;
   min-height: 250px;
-text-align: justify;
+  text-align: justify;
 }
 
 .tag {
@@ -174,14 +178,22 @@ footer {
 
 @media (max-width: 600px) {
 
-.card{
-width: auto ;
-}
+  .card {
+    width: auto;
+    margin: 0 auto;
+    border-radius: 0;
+  }
 
-.card-body p {
+  .card-body p {
     font-size: 18px;
-text-align: justify;
-}
+    text-align: justify;
+  }
+
+  .card-body h2 {
+    font-size: 30px;
+    text-align: left;
+  }
+
   footer {
     position: relative;
     background-color: #10aaa5;
