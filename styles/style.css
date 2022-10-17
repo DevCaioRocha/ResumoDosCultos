@@ -73,7 +73,15 @@ img.ccv {
   box-shadow: 0 2px 20px rgba(0, 0, 0, 0.8);
   overflow: hidden;
   width: 300px;
+  box-shadow: 0 1px px 0 rgba(0, 0, 0, 0.1);
+  transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
+
+.card:hover {
+  transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transform: scale(1.05, 1.05);
+}
+
 
 .card-header img {
   width: 100%;
@@ -88,6 +96,7 @@ img.ccv {
   align-items: flex-start;
   padding: 20px;
   min-height: 250px;
+
 }
 
 .tag {
@@ -142,12 +151,17 @@ a {
   justify-content: end;
 }
 
+.main-navigation ul :hover {
+  color: #10aaa5;
+}
+
 .link-nav {
   display: flex;
   margin-right: 20px;
   color: rgb(110, 107, 107);
   text-decoration: none;
 }
+
 
 footer {
   background-color: #10aaa5;
