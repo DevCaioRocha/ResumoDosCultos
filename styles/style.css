@@ -203,9 +203,9 @@ footer {
   }
 
   .link-nav {
-    font-size: 13px;
+    font-size: 12px;
     text-align: center;
-    margin-bottom: 15px;
+    justify-items: center;
   }
 
   footer {
@@ -225,5 +225,6 @@ footer {
     font-size: 10.5px;
     text-align: center;
     margin-bottom: 15px;
+    justify-items: center;
   }
 }
