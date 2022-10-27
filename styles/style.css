@@ -166,6 +166,12 @@ a {
   color: rgb(110, 107, 107);
   text-decoration: none;
 }
+.numeroDoResumo{
+display: flex;
+justify-content: end;
+font-size: 12px;
+margin-right: 10px;
+}
 
 
 footer {
