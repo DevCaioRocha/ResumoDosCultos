@@ -52,6 +52,11 @@ span {
   margin-right: 25px;
 }
 
+li{
+font-size: 25px;
+font-weight: bold;
+}
+
 .menu li a {
   color: rgb(167, 157, 157);
 }
