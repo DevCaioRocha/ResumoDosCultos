@@ -1,4 +1,4 @@
 # ResumoDosCultos
-Repositório do resumo dos Cultos da CCVideira recife com HTML e CSS.
+Repositório do resumo dos Cultos ministrados pela Igreja CCVideira recife com HTML e CSS.
 
-https://resumovideirarecife.netlify.app/
+resumoccvrecife.com.br
